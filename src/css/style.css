@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+
+.teko {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 ul {
     list-style: none;
 }
@@ -20,6 +28,7 @@ ul {
     background-repeat: no-repeat;
     background-size: 75px;
     background-position: 20px;
+    
 }
 
 .categorias {
@@ -44,6 +53,7 @@ ul {
     padding-right: 125.5px;
     border: solid 1px rgba(211, 211, 211, 0.301);
     border-radius: 5px;
+    box-shadow: 2px 1px 4px;
 }
 
 .topo input {
@@ -53,21 +63,77 @@ ul {
     padding-bottom: 20px;
     padding-right: 300px;
     padding-left: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     background-image: url(/src/img/89fbfbe1b4c301b7be5565c6f98e0495.png);
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: 450px;
     border-style: none;
+    box-shadow: 3px 3px 7px;
 }
 
 .categorias li:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     background-color: #F9F9F9;
 }
 
 a {
     text-decoration: none;
     color: gray;
+}
+
+.supplements img {
+    margin-top: 2px;
+    width: 100%;
+    height: 65vh;
+    transition: ease-in 0.3;
+    box-shadow: 3px 3px 3px #0F0F0F;
+}
+
+.supplements img:hover {
+    transform: scale(1.001);
+}
+
+.slogan {
+    font-family: "Teko", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: #0F0F0F;
+    padding: 10px;
+    background-color: #D8D8D8;
+}
+
+#sup-prod {
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    width: 80%;
+    height: 64vh;
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.supplements {
+    background-color: #e5e5e5;
+}
+
+#sup-prod img {
+    width: 20%;
+    height: 60vh;
+    margin-bottom: 5px;
+}
+
+#sup-prod img:hover {
+    transform: scale(1.01);
+}
+
+.accs {
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 100vh;
 }
