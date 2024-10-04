@@ -27,7 +27,7 @@ ul {
     display: flexbox;
     height: 14vh;
     background-color: rgb(0, 172, 202);
-    background-image: url(/src/img/TIGER__1_-removebg-preview.png);
+    background-image: url(src/img/TIGER__1_-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: 75px;
     background-position: 1.3%;
